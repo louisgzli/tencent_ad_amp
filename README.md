@@ -165,3 +165,4 @@ python3 train_age_gru.py 20 512 100 1e-3
 python3 train_gender_lstm.py 10 512 100 1e-3
 ````
 
+[大赛链接](https://algo.qq.com/ "大赛链接")
