@@ -117,12 +117,11 @@
 
 <a id='数据预处理与划分'></a>
 ###	数据预处理和划分
-````python
-	python3 input_generate.py
-    python3 input_split.py
 ````
-    python3 input_generate.py
-    python3 input_split.py
+python3 input_generate.py
+python3 input_split.py
+````
+    
 	
 运行之后在根目录下出现以下文件
 ````python
@@ -166,4 +165,3 @@ python3 train_age_gru.py 20 512 100 1e-3
 python3 train_gender_lstm.py 10 512 100 1e-3
 ````
 
-# tencent_ad_amp
