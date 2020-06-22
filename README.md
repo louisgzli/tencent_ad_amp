@@ -116,7 +116,11 @@
 * [训练模型](#训练模型)
 
 <a id='数据预处理与划分'></a>
-###数据预处理和划分
+###	数据预处理和划分
+````python
+	python3 input_generate.py
+    python3 input_split.py
+````
     python3 input_generate.py
     python3 input_split.py
 	
@@ -146,7 +150,7 @@
   |--test_artifact
 ````
 <a id='训练word2vec词向量'></a>
-###训练word2vec词向量
+###	训练word2vec词向量
 ```python
 python3 train_w2v.py creative 128
 python3 train_w2v.py ad 128
@@ -156,7 +160,7 @@ python3 train_w2v.py industry 64
 python3 train_w2v.py product_category 64
 ```
 <a id='训练模型'></a>
-###训练模型
+### 训练模型
 ````python
 python3 train_age_gru.py 20 512 100 1e-3
 python3 train_gender_lstm.py 10 512 100 1e-3
